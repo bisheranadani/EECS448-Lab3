@@ -14,8 +14,9 @@ function Change(){
   var back_red = document.getElementById("back_red").value;
   var back_blue = document.getElementById("back_blue").value;
   var back_green = document.getElementById("back_green").value;
-  var back_color = "#" + bord_red + bord_blue + bord_green;
-  document.getElementById("para").style.backgroundColor = ""+ bord_color;
+  var back_color = "#" + back_red + back_blue + back_green;
+  console.log(back_color);
+  document.getElementById("para").style.backgroundColor = ""+ back_color;
 
 
 }

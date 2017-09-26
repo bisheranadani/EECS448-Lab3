@@ -1,0 +1,38 @@
+body{
+  background-image: url(https://media.giphy.com/media/26gsbpBNkDs5U6lqM/giphy.gif);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  color: white;
+}
+
+header{
+  border: thick solid #00FA9A;
+  font-size: 30pt;
+  background-color: #00FA9A;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+p, ul, li
+{
+    background-color: #00FA9A;
+    color: white;
+    font-family: arial;
+    font-size: 12pt;
+    opacity: 0.75;
+    padding: 10px;
+    margin: 15px;
+}
+
+li:hover{
+  opacity: 1;
+  font-size: 20pt;
+}
+
+h1{
+  font-size: 30pt;
+  font-family: serif;
+  padding: 10px;
+  margin: 10px;
+}
